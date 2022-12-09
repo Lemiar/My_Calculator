@@ -1,3 +1,56 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Calculatrice</string>
+
+    <string-array name="spinner1">
+        <item>DH</item>
+        <item>$</item>
+        <item>€</item>
+    </string-array>
+    <string-array name="spinner2">
+        <item>DH</item>
+        <item>$</item>
+        <item>€</item>
+    </string-array>
+
+    <string-array name="spinner3">
+        <item>°C</item>
+        <item>K</item>
+        <item>°F</item>
+    </string-array>
+    <string-array name="spinner4">
+        <item>°C</item>
+        <item>K</item>
+        <item>°F</item>
+    </string-array>
+
+    <string-array name="spinner5">
+        <item>Heure</item>
+        <item>Minute</item>
+        <item>Seconde</item>
+    </string-array>
+    <string-array name="spinner6">
+        <item>Heure</item>
+        <item>Minute</item>
+        <item>Seconde</item>
+    </string-array>
+
+    <string-array name="spinner7">
+        <item>Bit</item>
+        <item>KiloBit</item>
+        <item>MégaBit</item>
+        <item>GigaBit</item>
+        <item>Octect</item>
+        <item>KiloOctect</item>
+        <item>MégaOctect</item>
+    </string-array>
+    <string-array name="spinner8">
+        <item>Bit</item>
+        <item>KiloBit</item>
+        <item>MégaBit</item>
+        <item>GigaBit</item>
+        <item>Octect</item>
+        <item>KiloOctect</item>
+        <item>MégaOctect</item>
+    </string-array>
+
 </resources>

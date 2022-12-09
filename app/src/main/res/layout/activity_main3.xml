@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:gravity="center"
+    android:background="@drawable/devise">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:text="La valeur à convertir :"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#51414F"/>
+
+    <EditText
+        android:id="@+id/txt"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:background="#D8BFD8"/>
+
+    <Spinner
+        android:id="@+id/sp1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:entries="@array/spinner1"
+        android:layout_margin="20dp"
+        android:background="#D8BFD8"/>
+    <Spinner
+        android:id="@+id/sp2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:entries="@array/spinner2"
+        android:layout_margin="20dp"
+        android:background="#D8BFD8"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:text="Résultat :"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#51414F"/>
+
+    <EditText
+        android:id="@+id/txt2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:background="#D8BFD8"/>
+
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group >
+        <item
+            android:id="@+id/cal_standards"
+            android:title="Standards"
+            android:icon="@drawable/ic_baseline_calculate_24"/>
+        <item
+            android:id="@+id/cal_scientifique"
+            android:title="Scientifique"
+            android:icon="@drawable/ic_baseline_science_24"/>
+        <item
+            android:id="@+id/cal_device"
+            android:title=" Device"
+            android:icon="@drawable/ic_baseline_attach_money_24"/>
+        <item
+            android:id="@+id/cal_temp"
+            android:title="Température"
+            android:icon="@drawable/ic_baseline_device_thermostat_24"/>
+        <item
+            android:id="@+id/cal_time"
+            android:title="Time"
+            android:icon="@drawable/ic_baseline_access_time_24"/>
+
+
+        <item
+            android:id="@+id/cal_data"
+            android:title="Data"
+            android:icon="@drawable/ic_baseline_4g_mobiledata_24"/>
+
+    </group>
+</menu>

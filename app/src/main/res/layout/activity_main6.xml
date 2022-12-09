@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:gravity="center"
+    android:background="@drawable/data">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:text="La valeur à convertir :"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#A257A2"/>
+
+    <EditText
+        android:id="@+id/t1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"/>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="20dp">
+
+        <Spinner
+            android:id="@+id/s1"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:background="#F7EDF7"
+            android:entries="@array/spinner7" />
+
+        <Spinner
+            android:id="@+id/s2"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:background="#F7EDF7"
+            android:entries="@array/spinner8"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:text="Résultat :"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#A257A2"/>
+
+    <EditText
+        android:id="@+id/t2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"/>
+
+
+</LinearLayout>
